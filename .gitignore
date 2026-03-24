@@ -1,0 +1,5 @@
+.ace-tool/
+.gradle/
+NXP_Android_UWBJetpackExample-main/source/local.properties
+NXP_Android_UWBJetpackExample-main/source/app/build/
+NXP_Android_UWBJetpackExample-main/source/build/

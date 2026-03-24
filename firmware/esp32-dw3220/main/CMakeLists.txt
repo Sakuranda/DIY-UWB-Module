@@ -1,0 +1,24 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "dw3220_driver/dw3220_spi.c"
+        "dw3220_driver/dw3220_uwb.c"
+        "ble_oob/ble_gatt_server.c"
+        "ble_oob/oob_protocol.c"
+        "platform/apple_ni_adapter.c"
+        "platform/fira_responder_adapter.c"
+        "ni_accessory/ni_protocol.c"
+        "session/session_manager.c"
+    INCLUDE_DIRS
+        "."
+        "dw3220_driver"
+        "ble_oob"
+        "platform"
+        "ni_accessory"
+        "session"
+    REQUIRES
+        driver
+        nvs_flash
+        bt
+        esp_timer
+)
