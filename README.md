@@ -7,6 +7,10 @@
 
 ENGLISH | [简体中文](README_CN.md)
 
+> [!TIP]
+> Due to proprietary protocol restrictions imposed by Apple on the iPhone, this project currently does not support cross-platform connectivity.
+> On the iPhone side, you can utilize [Qorvo Nearby Interaction](https://apps.apple.com/tr/app/qorvo-nearby-interaction/id1615369084) to connect with DIY UWB modules. (Tested hardware: Qorvo DW3220 + Nordic nRF52832)
+
 This repository implements and organizes a cross-platform access solution for a custom UWB accessory based on `ESP32-S3 + DW3220`, targeting both `iPhone Nearby Interaction` and `Android Jetpack UWB`.
 
 The project scope focuses on the following objectives:
@@ -17,6 +21,14 @@ The project scope focuses on the following objectives:
 - Provide a maintainable foundation for future firmware completion, protocol extension, and application-side integration
 
 In this repository, “cross-platform” means compatibility with both iOS and Android on the same hardware platform. It does not include dual-phone concurrent session support.
+
+## 相关演示
+
+[iPhone Integration Demo Video](demo/iPhone_demo_video.mp4)
+
+[Android Integration Demo Image](demo/Android_demo_pic.png)
+
+[DIY UWB Module Example Image (Using Nordic nRF52832)](demo/DIY_UWB_module_pic.png)
 
 ## Project Baseline
 
