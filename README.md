@@ -22,7 +22,7 @@ The project scope focuses on the following objectives:
 
 In this repository, “cross-platform” means compatibility with both iOS and Android on the same hardware platform. It does not include dual-phone concurrent session support.
 
-## 相关演示
+## Related Demos
 
 [iPhone Integration Demo Video](demo/iPhone_demo_video.mp4)
 
@@ -126,7 +126,6 @@ The limitation is not at the application layer. The missing part is the Apple/Qo
 ```text
 .
 |-- README.md
-|-- README.original.md
 |-- README_EN.md
 |-- LICENSE
 |-- THIRD_PARTY_NOTICES.md
